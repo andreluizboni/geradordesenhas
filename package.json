@@ -1,0 +1,11 @@
+{
+  "name": "geradordesenhas",
+  "version": "1.0.0",
+  "description": "Bom gerador de senhas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Luiz Moreira Boni",
+  "license": "ISC"
+}
