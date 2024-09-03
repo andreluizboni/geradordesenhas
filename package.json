@@ -4,8 +4,22 @@
   "description": "Bom gerador de senhas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
   },
   "author": "André Luiz Moreira Boni",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.4",
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^5.0.7",
+    "vite": "^5.4.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react": "^7.35.0"
+  }
 }
